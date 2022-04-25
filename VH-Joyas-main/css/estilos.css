@@ -1,0 +1,267 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+
+.cajacontenedoraheader{ 
+    display: flex;
+    flex-direction: row;
+    }
+    
+    .tituloheader{
+        color:dimgray;
+        display: inline;
+        font-size: 60px;
+    }
+    
+    .tituloheader2{
+        color:dimgray;
+        margin: 10px;
+        font-size: 21px;
+    }
+.contenedorheader{
+height: 400px;
+}
+
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../multimedia/Fondo.jpg);
+    background-size: cover;
+    
+}
+
+
+.nav-item{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.nav-item{
+    font-weight: bold;
+}
+
+.nav-item :hover{
+text-decoration: underline;
+color: black;
+}
+.item{
+    background-color:rgb(255,255,255, 0.3);
+}
+
+
+/*index*/
+
+.index{
+    height: 350px;
+}
+.cajacontenedoraindex{
+height: 80px; 
+display: flex;
+flex-direction: row;
+margin-left: 200px;
+padding: 20px;
+margin-top: 200px;
+}
+
+.tituloindex{
+    color: black;
+    display: inline;
+    font-size: 70px;
+}
+
+.tituloindex2{
+    color:black;
+    margin: 10px;
+    font-size: 21px;
+}
+
+.linea{
+    width: 400px;
+    margin-left: 200px;
+}
+
+.indexparrafo{
+    margin-left: 200px;
+}
+/*Piezas Unicas*/
+.fondoapiezasunicas{
+    height: 100%;
+}
+
+.titulopiezasunicas{
+    text-align: center;
+}
+.textopiezasunicas{
+    text-align: center;
+    color:darkslategray;
+}
+
+.cajacontenedorapiezasunicas{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+}
+
+.cajacontenedorapiezasunicashijo{
+    height: 250px;
+    width: 450px;
+    margin-left: 250px;
+}
+
+.cajacontenedorapiezasunicas2{
+    font-size: 30px;
+    color: black;
+    padding: 70px;
+}
+
+.cajacontenedorapiezasunicas3{
+    font-size: 30px;
+    margin-left: 500px;
+    color: black;
+    padding: 70px
+}
+.cajacontenedorapiezasunicas4{
+    height: 250px;
+    width: 450px;
+    margin-right: 250px;
+}
+
+/* Nosotros*/
+.titulonosotros{
+text-align: center;
+color: black;
+}
+
+.cajacontenedoranosotros{
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+}
+.cajacontenedoranosotroshijo{
+    height: 400px;
+    margin-left: 30px;
+}
+
+.cajacontenedoranosotros2{
+padding: 40px;
+color:darkslategray;
+}
+.cajacontenedoranosotros3{
+    display: flex;
+    flex-direction: row;
+}
+.VH{
+font-size: 130px;
+margin-left: 80px;
+color: darkgray;
+}
+
+.cajacontenedoranosotroshijo2{
+    margin: 30px;
+    width: 550px;
+    height: 200px;
+}
+/*Contacto*/
+.titulocontacto{
+    margin: 20px;
+}
+.cajacontenedoracontactos{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+
+.cajacontenedoracontactoshijo{
+    padding: 10px;
+    margin-left: 25px;
+
+}
+
+.cajacontenedoracontactoshijo2{
+    height: 320px;
+    width: 550px;
+    margin-left: 90px;
+    padding: 10px;
+}
+.form-control {
+    background-color:whitesmoke;
+}
+.textarea{
+    width: 600px;
+}
+
+.boton{
+    margin-top: 10px;
+    margin-right:10px;
+    color:white;
+    background-color:gray;
+}
+
+
+/* foooter */
+.footer{
+    height: 200px;
+}
+.infofooter{
+    color:gray ;
+    margin-left: 300px;
+    padding: 10px;
+}
+
+.lineafooter{
+    width: 800px;
+    margin-left: 250px;
+    
+}
+
+.lineavertical{
+    border-left: 1px solid gray;
+    height: 150px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.containerfooter{
+    display: flex;
+    flex-direction:row;
+}
+
+.vhfooter{
+    margin-left: 20px;
+    padding: 5px;
+    color: gray;
+    font-size: 65px;
+    
+}
+
+.containerfooter2{
+    display: flex;
+    flex-direction: row;
+}
+.VICENTE{
+    padding: 30px ;
+    color: gray;
+
+}
+
+.menufooter{
+    color: gray;
+    font-size: 15px;
+}
+
+.navlinkfooter{
+    list-style: none;
+}
+.navlinkfooter :hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.containercart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
